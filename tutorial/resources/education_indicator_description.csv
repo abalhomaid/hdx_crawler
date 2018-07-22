@@ -1,0 +1,28 @@
+indicator,description,indicator registry code
+OOSC,"number of out of school children, percentage of out of school children","E-1-01,E-1-03,E-1-11,E-1-17"
+Partner Contact,name of organization helping to relieve the crisis,AAP-2
+attendance rate,"number, percentage of students attending class","E-1-01,E-1-02"
+completion rate,"number, percentage of students passing a certain education level",
+expenditure,expenditure spend on student or teachers,
+gender equity,"number, percentage of male/female students","AAP-3,E-1-102,E-1-12,E-1-13,E-3-2"
+gross intake,gross intake per student,
+literacy rate,"number, percentage of literate student, teachers",
+number of damaged schools,"number of schools that are not being used for teaching due to being damaged, occupied by military, etc…","E-1-01,E-1-02,E-1-03,E-3-6,E-1-06,E-1-17,E-3-6"
+number of partners,total number of partners helping to relieve the crisis,E-1-04
+number of qualified teachers,"number, percentage of teachers being trained/finished training for teaching","E-2-04,E-2-05,E-2-06,E-4-1,E-4-2"
+number of schools,"total number, percentage of schools, whether damaged or not","E-1-05,E-1-23"
+number of shelters,"total number of shelters or buildings, whether occupied or not",E-1-23
+psychological support,"time spent with student as a parent, play time for child, psychotherapy sessions","E-1-22,E-2-01"
+DoE emergency preparedness,the pro-active and reactiveness of the Director of Education when a crisis happens. Whether there is a plan or training  for him/her,E-1-10
+attacks on children,"number, percentage Physical or mental abuse to a child, child recruitment",E-1-15
+attacks on teachers,,E-1-15
+children in need,"number, percentage of students/children in need be it out of school or not","AAP-1,AAP-3,E-1-01,E-1-02,E-1-10"
+children reached,response plan reached the student/chid,"E-1-04,E-1-08,E-1-10,E-1-13,E-1-24"
+children targeted,"The goal number,percentage of student/child to be helped by organization",
+dropout rate,"number, percentage of student who dropped, ore restarted the education level ",
+field contacts,"contact number, email, and location of an education coordinator who's working in the field",AAP-2
+fund received,"total, percentage of funds received from organizations",E-1-10
+fund required,"The goal number,percentage of budget required to achieve the response plan","E-1-09,E-3-3"
+partner presense,Who is working where by education indicator or by region,AAP-2
+school location,geospatial longitude and latitude location of the school,
+enrollment,,

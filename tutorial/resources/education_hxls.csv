@@ -1,0 +1,84 @@
+Data field,HXL hashtag and attributes,Notes,Education Indicator,Quality Indicator
+World region name,#region +name,E.g. “Middle East”,,
+Country name,#country +name,Used by SiND,,
+Country ISO3 code,#country +code,,,
+Admin level 1 name,#adm1 +name,,,
+Admin level 1 P-code,#adm1 +code,,,
+Admin level 2 name,#adm2 +name,,,
+Admin level 2 P-code,#adm2 +code,,,
+Location name,#loc +name,E.g. a village or camp. Security-sensitive.,school location,region
+Location P-code,#loc +code,Security-sensitive,school location,region
+Latitude,#geo +lat,Security-sensitive,school location,region
+Longitude,#geo +lon,Security-sensitive,school location,region
+General population,#population +total,,,
+Females,#population +f,Subset of #population +total,,gender
+Males,#population +m,Subset of #population +total,,gender
+Non-gender-binary people,#population +i,Subset of #population +total,,
+Children,#population +children,Subset of #population +total,,
+Girls,#population +children +f,Subset of #population +children,,gender
+Boys,#population +children +m,Subset of #population +children,,gender
+Non-gender-binary children,#population +children +i,Subset of #population +children,,
+Adolescents,#population +adolescents,Subset of #population +total,,
+Adolescent females,#population +adolescents +f,Subset of #population +adolescents,,gender
+Adolescent males,#population +adolescents +m,Subset of #population +adolescents,,gender
+Non-gender-binary adolescents,#population +adolescents +i,Subset of #population +adolescents,,gender
+Adults,#population +adults,Subset of #population +total,,
+Adult women,#population +adults +f,Subset of #population +adults,,gender
+Adult men,#population +adults +m,Subset of #population +adults,,gender
+Adult non-gender-binary people,#population +adults +i,Subset of #population +adults,,
+Start date,#date +start,The beginning of a period of time (e.g. an aid activity),,time
+End date,#date +end,The end of a period of time,,time
+Occurrence date,#date +occurred,When an incident took place.,,time
+Survey date,#date +surveyed,When the data was initially collected.,,time
+Verification date,#date +verified,When the data was verified by project staff.,,time
+Facility type,#loc +type,"e.g. primary, secondary, tertiary",school location,education level
+Educational facility name,#loc +education +name,,school location,education level
+Educational facility identifier,#loc +education +code,,school location,education level
+Physical state of facility,#status +physical,"e.g. open, closed, damaged",number of damaged schools,
+Security status of facility,#status +security,"e.g. safe, unsafe",number of damaged schools,
+Student capacity,#capacity +students,,OOSC,
+Teachers available,#capacity +teachers,,number of qualified teachers,
+Demographic groups served,#beneficiary,"e.g. girls, boys, Arabic-speakers",fund received,gender
+Name of a crisis or emergency,#crisis +name,,,
+Identifier for a crisis/emergency,#crisis +code,,,
+Short description of a specific event or incident,#event +name,,,
+Identifier for an event/incident,#event +code,,,
+(Apparent) cause of an event/incident,#cause,,,
+Severity of an event/incident,#severity,,,
+Impact of an event/incident,#impact,"E.g. fatalities, school closed, etc.",,
+Number of people killed,#affected +killed,See 1.2. Demographics and affected peoples for sex- and age-disaggregation,"attacks on children,attacks on teachers",
+Number of people injured,#affected +injured,See 1.2. Demographics and affected peoples for sex- and age-disaggregation,"attacks on children,attacks on teachers",
+Number of people abducted,#affected +abducted,See 1.2. Demographics and affected peoples for sex- and age-disaggregation,"attacks on children,attacks on teachers",
+Number of people threatened,#affected +threatened,See 1.2. Demographics and affected peoples for sex- and age-disaggregation,"attacks on children,attacks on teachers",
+Number of people infected with a disease,#affected +infected,See 1.2. Demographics and affected peoples for sex- and age-disaggregation,"attacks on children,attacks on teachers",
+Number of people physically assaulted,#affected +assaulted,See 1.2. Demographics and affected peoples for sex- and age-disaggregation,"attacks on children,attacks on teachers",
+Number of victims of gender-based violence,#affected +gbv,See 1.2. Demographics and affected peoples for sex- and age-disaggregation,"attacks on children,attacks on teachers",gender
+Name of group implicated in the incident,#group +name,E.g. “Boko Haram”,,
+Type of group implicated in the incident,#group +type,E.g. “guerillas”,,
+Identifier of group implicated in the incident,#group +code,,,
+Ability to access the event location,#access,E.g. “restricted due to fighting”,,
+Planned response to the event,#activity +response,,DoE emergency preparedness,
+Extra details about the event,#description,,,
+Education budget,#value +education +budget,,"fund received,gross intake",
+Number of teachers,#capacity +teachers,,number of qualified teachers,
+Number of facilities,#capacity +facilities,,number of schools,
+Number of students,#population +students,See 1.2. Demographics and affected peoples for sex- and age-disaggregation,"enrollment,attendance rate",
+Access (or barriers to access) to schools,#access +education,,number of schools,
+Donor,#org +funder,e.g. “UK DFID”,Partner Contact,
+Programming organisation/agency,#org +prog,e.g. “UNICEF”,Partner Contact,
+Implementing partner,#org +impl,e.g. “Madagascar Red Cross”,Partner Contact,
+Cluster or sector name,#sector +name,e.g. “Health”,,
+Cluster or sector code,#sector +code,,,
+Subsector,#subsector,,,
+Description of aid activity,#activity,e.g. “Measles vaccinations”,,
+Intended beneficiary group,#beneficiary,e.g. “School children”,,
+Aid activity output or outcome,#output,e.g. “children vaccinated at 20 schools”,,
+Number of people targeted,#targeted,See 1.2. Demographics and affected peoples for sex- and age-disaggregation,children targeted,
+Number of people reached,#reached,See 1.2. Demographics and affected peoples for sex- and age-disaggregation,children reached,
+Organisation conducting survey,#org,,,
+Individual informant name,#respondee +name,Security sensitive,,
+Informant age or age group,#respondee +age,Security sensitive,,education level
+Informant gender,#respondee +gender,Security sensitive,,
+Identified need,#need,e.g. “textbooks”,,
+Service used,#service,e.g. “Internet datalink”,,
+Identified ability/capacity,#capacity,e.g. “science equipment”,,
