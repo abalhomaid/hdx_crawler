@@ -25,6 +25,9 @@ Assuming you're running on Python3, you need to have the following libraries ins
 
 ### Algorithm
 
+1. HDX Crawler starts at http
+2. 
+
 This section states the algorithm steps for populating the metadataset
 
 ## Assumptions
@@ -32,6 +35,8 @@ This section states the algorithm steps for populating the metadataset
 The crawler assumes that the HDX platform https://data.humdata.org/ has the same HTML and CSS as of 23 July 2018 
 
 The crawler uses education indicators retrieved by performing Secondary Data Review of the official Indicator Registry Education Indicators https://ir.hpc.tools/. The reason is that most datasets and reports do not go to the level of details of the official education indicators. The Secondary Data Review reduces the indicators from 50 to 25. For more details, see FILE for description of each indicator and its link to registry code
+
+education indicators are synchronized with the files opened. meaning that any indicator found within, should exist within education_indcators_description.csv
 
 
 ### Mappings
