@@ -27,9 +27,6 @@ Assuming you're running on Python3, you need to have the following libraries ins
 
 This section states the algorithm steps for populating the metadataset
 
-
-
-
 ## Assumptions
 
 The crawler assumes that the HDX platform https://data.humdata.org/ has the same HTML and CSS as of 23 July 2018 
@@ -48,8 +45,10 @@ Leveraging the metadataset. See .ipynyb
 
 ## Future work
 
-list
+1. switch from scraping to using the HDX API to get the metadata
+2. use the Data Freshness database instead of the updated date to populate the time dimensions
+
 value of indicator
 sector dimension
 contact dimension
-
+ad
