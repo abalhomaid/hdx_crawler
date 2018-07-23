@@ -16,6 +16,7 @@ Assuming you're running on Python3, you need to have the following libraries ins
 
 ## Concept
 
+Takes architicture of a Star Schema
 
 ![metadataset diagram](images/metadataset_diagram.jpg)
 
