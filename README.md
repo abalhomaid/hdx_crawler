@@ -63,9 +63,11 @@ Leveraging the metadataset. See .ipynyb
 
 ## Future work
 
-1. switch from scraping to using the HDX API to get the metadata
-2. use the Data Freshness database instead of the updated date to populate the time dimensions
+1. Switch from scraping to using the HDX API to get the metadata
+2. Use the Data Freshness database instead of the updated date to populate the time dimensions
 3. Schedule Scrapy to run frequently by either using crontab command or deploying the spider to Scrapyd https://github.com/scrapy/scrapyd
+4. Scrape data outside HDX such as Humanitarian Response Planning (HRP) and Humanitarian Needs Overview (HNO) PDFs
+ 
 
 value of indicator
 sector dimension
