@@ -34,6 +34,16 @@ The crawler assumes that the HDX platform https://data.humdata.org/ has the same
 The crawler uses education indicators retrieved by performing Secondary Data Review of the official Indicator Registry Education Indicators https://ir.hpc.tools/. The reason is that most datasets and reports do not go to the level of details of the official education indicators. The Secondary Data Review reduces the indicators from 50 to 25. For more details, see FILE for description of each indicator and its link to registry code
 
 
+### Mappings
+One-to-Many
+
+
+## Scalability
+
+list
+edit csv files to include more hxl
+example: new education hxl given
+
 ## Output
 
 .json
@@ -47,6 +57,7 @@ Leveraging the metadataset. See .ipynyb
 
 1. switch from scraping to using the HDX API to get the metadata
 2. use the Data Freshness database instead of the updated date to populate the time dimensions
+3. Schedule Scrapy to run frequently by either using crontab command or deploying the spider to Scrapyd https://github.com/scrapy/scrapyd
 
 value of indicator
 sector dimension
