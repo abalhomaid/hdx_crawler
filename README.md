@@ -18,6 +18,8 @@ Assuming you're running on Python3, you need to have the following libraries ins
 
 Takes architicture of a Star Schema
 
+"An approach to answering multi-dimensional analytical queries swiftly in computing"
+
 ![metadataset diagram](images/metadataset_diagram.jpg)
 
 ### Populating the metadataset
