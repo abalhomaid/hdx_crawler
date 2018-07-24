@@ -1,6 +1,6 @@
 # HDX crawler
 
-The purpose of this project is to present a proof of concept for the Education Meta-dataset on the HDX Platform https://data.humdata.org/. The project implements a crawler that takes education datasets as an input, and outputs a populated meta dataset. The crawler generates the input by scraping HTML/CSS elements from . The concept behind the metadataset and the details of the scraping algorithm is explained in section [Concept](#concept), and [Algorithm](#algorithm)
+The purpose of this project is to present a proof of concept for the Education Meta-dataset on the [HDX Platform] (https://data.humdata.org/). The project implements a crawler that takes education datasets as an input, and outputs a populated meta dataset. The crawler generates the input by scraping HTML/CSS elements from [HDX search results page for 'Education'] (https://data.humdata.org/search?q=education). The concept behind the metadataset and the details of the scraping algorithm is explained in section [Concept](#concept), and [Algorithm](#algorithm)
 
 ## How to Run
 ### Python libraries
