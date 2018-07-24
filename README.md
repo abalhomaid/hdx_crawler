@@ -1,6 +1,6 @@
 # HDX crawler
 
-The purpose of this project is to present a proof of concept for the Education Meta-dataset on the [HDX Platform](https://data.humdata.org/). The project implements a crawler that takes education datasets as an input, and outputs a populated meta dataset. The crawler generates the input by scraping HTML/CSS elements from [HDX search results page for 'Education'](https://data.humdata.org/search?q=education). The crawler goes through each search result, dataset page, and the dataset itself to collect the data. The concept behind the metadataset and the details of the scraping algorithm is explained in section [Concept](#concept), and [Algorithm](#algorithm). The caveats and assumptions of the crawler are mentioned in the [Assumptions section](#assumption)
+The purpose of this project is to present a proof of concept for the Education Meta-dataset on the [HDX Platform](https://data.humdata.org/). The project implements a crawler that takes education datasets as an input, and outputs a populated meta dataset. The crawler generates the input by scraping HTML/CSS elements from [HDX search results page for 'Education'](https://data.humdata.org/search?q=education). The crawler goes through each search result, dataset page, and the dataset itself to collect the data. The concept behind the metadataset and the details of the scraping algorithm is explained in section [Concept](#concept), and [Algorithm](#algorithm). The caveats and assumptions of the crawler are mentioned in the [Assumptions section](#assumptions)
 
 ## How to Run
 ### Python libraries
@@ -35,16 +35,19 @@ This section states the algorithm steps for populating the metadataset
 
 ## Assumptions
 
+### CSS/HTML
+
 The crawler assumes that the HDX platform https://data.humdata.org/ has the same HTML and CSS as of 23 July 2018 
 
 The crawler uses education indicators retrieved by performing Secondary Data Review of the official Indicator Registry Education Indicators https://ir.hpc.tools/. The reason is that most datasets and reports do not go to the level of details of the official education indicators. The Secondary Data Review reduces the indicators from 50 to 25. For more details, see FILE for description of each indicator and its link to registry code
 
 education indicators are synchronized with the files opened. meaning that any indicator found within, should exist within education_indcators_description.csv
 
-
 ### Mappings
 One-to-Many
 
+### File type
+Only considers css/xls/xlsx/zip
 
 ## Scalability
 
