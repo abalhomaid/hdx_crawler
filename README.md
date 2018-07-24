@@ -61,10 +61,8 @@ The below figure shows the workflow of the crawler to populate a single row in t
 
 ![Crawler diagram](images/crawler_diagram.jpg)
 
-Once the code has finished, two output files will be created, /tutorial/spiders/meta_data_test.json, and /tutorial/spiders/meta_data_test.csv, you may use either for your convenience. 
-```diff 
-- Remember to delete both files before running the code, otherwise the crawler will append to those files
-```
+Once the code has finished, two output files will be created, /tutorial/spiders/meta_data_test.json, and /tutorial/spiders/meta_data_test.csv, you may use either for your convenience. **Remember to delete both files before running the code, otherwise the crawler will append to those files**
+
 
 ### Algorithm
 
