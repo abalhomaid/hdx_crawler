@@ -61,7 +61,7 @@ The below figure shows the workflow of the crawler to populate a single row in t
 
 ![Crawler diagram](images/crawler_diagram.jpg)
 
-Once the code has finished, two output files will be created, /tutorial/spiders/meta_data_test.json, and /tutorial/spiders/meta_data_test.csv, you may use either for your convenience. <font color="red">Remember to delete both files before running the code, otherwise the crawler will append to those files.</font>
+Once the code has finished, two output files will be created, /tutorial/spiders/meta_data_test.json, and /tutorial/spiders/meta_data_test.csv, you may use either for your convenience. - Remember to delete both files before running the code, otherwise the crawler will append to those files
 
 ### Algorithm
 
@@ -71,6 +71,11 @@ Once the code has finished, two output files will be created, /tutorial/spiders/
 This section states the algorithm steps for populating the metadataset
 
 ## Assumptions
+
+Three assumptions are mentioned below
+1. CSS/HTML
+2. Mappings
+3. File type
 
 ### CSS/HTML
 
