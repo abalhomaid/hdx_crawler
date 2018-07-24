@@ -63,6 +63,17 @@ The below figure shows the workflow of the crawler to populate a single row in t
 
 Once the code has finished, two output files will be created, /tutorial/spiders/meta_data_test.json, and /tutorial/spiders/meta_data_test.csv, you may use either for your convenience. - Remember to delete both files before running the code, otherwise the crawler will append to those files
 
+<h2>
+
+```diff
+- red
++ green
+! orange
+# gray
+```
+
+</h2>
+
 ### Algorithm
 
 1. HDX Crawler starts at http
