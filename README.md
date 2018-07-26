@@ -9,6 +9,8 @@ Assuming you're running on Python3, you need to have the following libraries ins
 1. Scrapy
 2. Pandas
 3. Numpy
+4. xlrd
+5. Pillow
 
 ### Command line
 1. cd to /tutorial/spiders folder
@@ -113,9 +115,15 @@ Leveraging the metadataset. See .ipynyb
 2. Use the Data Freshness database instead of the updated date to populate the time dimensions
 3. Schedule Scrapy to run frequently by either using crontab command or deploying the spider to Scrapyd https://github.com/scrapy/scrapyd
 4. Scrape data outside HDX such as Humanitarian Response Planning (HRP) and Humanitarian Needs Overview (HNO) PDFs
- 
 
 value of indicator
 sector dimension
 contact dimension
 ad
+
+
+### An ideal way to handle the size of the metadataset output
+
+To be stored in a database program such as the open-source cross-platform [MongoDB](https://www.mongodb.com/)
+ 
+
