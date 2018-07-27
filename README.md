@@ -4,8 +4,8 @@ The purpose of this project is to present a proof of concept for the Education M
 
 ## Table of Contents
 * [How to Run](#how-to-run)
-.* [Python libraries](#python-libraries)
-.* [Command line](#command-line)
+* [Python libraries](#python-libraries)
+* [Command line](#command-line)
 
 ## How to Run
 ### Python libraries
